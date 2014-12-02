@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Visual Cluster Analysis </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	.node {
+  		stroke: #fff;
+  		stroke-width: 0.8px;
+	}
+
+	.link {
+  		fill: none;
+ 		stroke: #000;
+  		opacity: .3;
+	}
+
+   .sidebar-nav {
+      padding: 9px 0;
+   }
+
+	.container {
+    min-height: 18px;
+    width: 1200px;
+	}
+	
+
+	@media (max-width: 1500px) and (min-width: 768px) {
+	  /* Enable use of floated navbar text */
+	  .navbar-text.pull-right {
+	    float: none;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	  }
+	}
+	</style>
+        <!-- put the css file here-->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+        
+        
+    </head>
+
+	 <body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+		  	<div class="container-fluid">
+		 		<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+		 		</button>
+		 		<a class="brand" href="#">Visual Cluster Analysis</a>
+		 		<div class="nav-collapse collapse">
+					<ul class="nav">
+				  		<li><a href="#about" data-toggle="tab">About</a></li>
+				  		<li><a href="#contact" data-toggle="tab">Contact</a></li>
+					</ul>
+		 		</div><!--/.nav-collapse -->
+		  </div>
+		</div>
+		</div>
+		 <div class="container-fluid tab-content">
+			<div id="home" class="tab-pane active hero-unit">
+                <h1>TCGA Toolbox</h1>
+                
+         </div>
+		   <div id="about" class="row-fluid active tab-pane">
+		   	<div class="span1">
+		  		<!--Sidebar content-->
+		 
+		   	</div>
+		   	<div class="span10">	  
+		 		</div>
+		   </div>
+		
+		<hr>
+
+		<footer>
+		  <p>&copy; OSU CSE 2013</p>
+		</footer>        
+		</div>
+	</body>
+
+<script src="../../lib/IO.js"></script>
+<script type="text/javascript" src="../../d3/d3.v3.min.js"></script>
+<script type="text/javascript" src="./FDG.js"></script>
+
+
+
+</html>
